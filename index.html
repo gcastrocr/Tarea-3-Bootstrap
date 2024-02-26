@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="UTF-8">
+        <meta name="description" content="Tarea No3 Diseño de aplicaciones Web">
+        <meta name="keywords" content="HTML, Tarea, UTN">
+        <meta name="author" content="Geilyn Castro Chinchilla">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">|
+        <title>Tarea 3 - Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--Uso de link para definir el estilo-->
+        <link rel="stylesheet" href="estilo.css" type="text/css" media="screen" />
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap' rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <div class="container-fluid">
+            <header class="col-sm-12">
+                <div class="encabezado">
+                    <h1>Parque Nacional Manuel Antonio</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="info-1">
+                            <img src="img/img-header.jpg" alt="Playa">
+                        </div>      
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="info-2">
+                            <h2>​El Parque Nacional Manuel Antonio nació a partir de la presión 
+                                comunal que se manifestaba en contra de la prohibición de sus 
+                                antiguos dueños extranjeros para el usufructo de las playas 
+                                por parte de los pobladores locales. Los extranjeros tenían un
+                                marcado interés en desarrollar la zona como centro turístico. 
+                                Así gracias a la presión de la comunidad nace en 1972 el 
+                                “Parque Recreativo Nacional Playas de Manuel Antonio”, 
+                                por medio de la Ley No. 5100.</h2>
+                            <a href="https://www.sinac.go.cr/ES/ac/acopac/pnma/Paginas/default.aspx">Referencia</a>
+                        </div>     
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <nav class="navegador">
+                        <ul>
+                            <li><a class="active" href="#home">Inicio</a></li>
+                            <li><a href="#informacion">Información</a></li>
+                            <li><a href="#historia">Historia</a></li>
+                            <li><a href="#about">Conózcanos</a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <div class="row">
+                <aside class="col-sm-5">
+                    <div class="contenido">
+                        <h2>Tarifas de ingreso con IVA incluido:
+                            <h3>
+                                <ul>
+                                    <li>Adulto no residente (mayores a 12 años) $ 18,08</li><br></br>
+                                    <li>Niño no residente (De 2 a 12 años) $ 5,65</li><br></br>
+                                    <li>Adulto residente (mayores a 12 años) ¢ 1808</li><br></br>
+                                    <li>Niños residentes (De 6 a 12 años) ¢ 565</li><br></br>
+                                    <li>Niños residentes (menores a 6 años) ¢ 0</li><br></br>
+                                    <li>Ciudadano de Oro (nacionales) $ 0</li><br></br>
+                                    <li>Niño no residente (0 a 2 años) $ 0</li><br></br>
+                                </ul>
+                            </h3>
+                        </h2>
+                        <a href="https://www.sinac.go.cr/ES/ac/acopac/pnma/Paginas/default.aspx">Referencia</a>
+                    </div>
+                </aside>
+                <main class="col-sm-7">
+                    <article class="articulo">
+                        <h2>Servicios</h2>
+                        <h4>
+                            <ul>
+                                <li>Agua potable </li><br></br>
+                                <li>Duchas y vestidores (no se permite usar jabón o champú)</li><br></br>
+                                <li>Servicios sanitarios </li><br></br>
+                                <li>Alquiler de casilleros </li><br></br>
+                                <li>Senderos interpretados (rotulados) </li>
+                            </ul>
+                        </h4>
+                    </article>
+                    <article class="articulo">
+                        <h2>Compra y reserva en línea</h2>
+                        <h4>El ingreso y la permanencia a este Parque Nacional está regulado por diferentes normativas entre estas, el Decreto N° 22482-MIRENEM y su modificación mediante decreto ejecutivo 42496-MINAE.
+                            El Parque Nacional Manuel Antonio, se encuentra abierto a los visitantes de miércoles a lunes en horario de 7:00 a.m. a 3:00 p.m. (martes cerrado)                            
+                            Las entradas se obtienen únicamente a través del sitio web
+                            <a href="https://serviciosenlinea.sinac.go.cr/">https://serviciosenlinea.sinac.go.cr/​</a>
+                        </h4>
+                    </article>
+                </main>
+            </div>
+            
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" >
+                        <img src="img/img-1.jpg" class="d-block  w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" >
+                        <img src="img/img-2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" >
+                        <img src="img/img-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item" >
+                        <img src="img/img-4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <footer class="row">
+                <div class="col-sm-6">
+                    <div class="footer-1">
+                        <img src="img/ig.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="footer-2">
+                        <img src="img/youtube.png" alt="Instagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>    
